@@ -1,0 +1,524 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    font-family: 'Century Gothic';
+}
+
+.firstBlock {
+    height: 100vh;
+    background-image: url('../media/hkray2.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.textFB {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.textFB h1 {
+    font-size: 8vw;
+    color: rgb(255, 255, 255);
+
+    font-family: consolas;
+}
+
+.textFB h3 {
+    font-size: 3vw;
+    background-color: rgba(19, 146, 231, 0.5);
+    border-radius: 10px;
+}
+
+.secondBlock {
+    height: 100vh;
+    background-image: url('../media/flowers.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondBlock h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.mainSB h1 {
+    color: white;
+    font-family: consolas;
+    font-size: 55pt;
+}
+
+.aboutSB {
+    color: white;
+    font-size: 20pt;
+    margin-left: 55px;
+    width: 45%;
+}
+
+.aboutSB p {
+    padding: 5px;
+    background-color: rgba(19, 146, 231, 0.1);
+    border-radius: 3px;
+}
+
+.aboutSB button {
+    background-color: rgba(19, 146, 231, 0.7);
+    border: 1px solid rgba(19, 146, 231, 0.7);
+    border-radius: 10px;
+    color: white;
+    height: 50px;
+    width: 150px;
+    transition: 0.5s;
+    font-family: 'Century Gothic';
+    font-weight: 900;
+    font-size: 12pt;
+}
+
+.aboutSB button:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}
+
+
+
+.thirdBlock {
+    height: 100vh;
+    background-image: url('../media/colosus1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.textTB h1 {
+    font-size: 50pt;
+    font-family: consolas;
+    color: rgb(255, 255, 255);
+}
+
+.textTB p {
+    font-size: 14pt;
+    font-family: 'Century Gothic';
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(24, 22, 19, 0.2);
+}
+
+.textTB span {
+    color: tomato;
+    font-weight: 900;
+}
+
+.imgBlockTB {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imgBlockTB img {
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.imgBlockTB img:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}
+
+.fourthBlock {
+    height: 100vh;
+    background-image: url('../media/colosusbest.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fourthBlock h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 20pt;
+    color: tomato;
+}
+
+.circle {
+    width: 25%;
+    margin: 10px;
+    height: 330px;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: aliceblue;
+}
+
+.circle p {
+    font-size: 12pt;
+}
+
+.fivethBlock {
+    height: 100vh;
+    background-image: url('../media/boatess.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fivethBlock h1 {
+    color: white;
+    font-size: 50pt;
+    margin: 0;
+    padding: 0;
+}
+
+.imgAreaFive img {
+    height: 350px;
+    width: 17%;
+    margin: 2px;
+    transition: 0.5s;
+}
+
+.imgAreaFive img:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}
+
+.imgAreaFive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.feedback {
+    height: 100vh;
+    background-image: url('../media/sea2.jpg');
+    background-size: cover;
+    background-position: center;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feedback h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 45pt;
+}
+.feedback p{
+    font-size: 18pt;
+    color:gainsboro;
+}
+.forminput input{
+    display: block;
+    margin: 5px;
+    width: 500px;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.forminput button{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: tomato;
+    color:white;
+    font-family: 'Century Gothic';
+}
+#message {
+    height: 150px;
+}
+@media screen and (max-width:1650px) {
+    .aboutSB {
+        font-size: 13pt;
+    }
+
+    .textTB p {
+        font-size: 10pt;
+    }
+
+    .imgBlockTB img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .circle p {
+        font-size: 9pt;
+    }
+
+    .imgAreaFive img {
+        height: 300px;
+        width: 17%;
+        margin: 2px;
+    }
+}
+
+@media screen and (min-width:1651px) and (max-width:1900px) {
+    .aboutSB {
+        font-size: 15pt;
+    }
+
+    .textTB p {
+        font-size: 12pt;
+    }
+
+    .imgBlockTB img {
+        height: 180px;
+        width: 180px;
+    }
+
+    .circle p {
+        font-size: 10pt;
+    }
+
+    .imgAreaFive img {
+        height: 300px;
+        width: 17%;
+        margin: 2px;
+    }
+}
+
+@media screen and (min-width:860px) and (max-width:1100px) {
+    .secondBlock {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .mainSB h1 {
+        font-size: 25pt;
+    }
+
+    .aboutSB {
+        font-size: 10pt;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .aboutSB button {
+        height: 30px;
+        width: 100px;
+        font-size: 6pt;
+    }
+
+
+
+    .thirdBlock {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .textTB h1 {
+        font-size: 20pt;
+
+    }
+
+    .textTB p {
+        font-size: 8pt;
+    }
+
+    .imgBlockTB img {
+        height: 150px;
+        width: 150px;
+    }
+
+
+    .fourthBlock h3 {
+        padding: 0;
+        margin: 0;
+        font-size: 15pt;
+        color: tomato;
+    }
+
+    .circle p {
+        font-size: 8pt;
+    }
+
+}
+
+
+
+@media screen and (min-width:400px) and (max-width:850px) {
+    .secondBlock {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .mainSB h1 {
+        font-size: 15pt;
+    }
+
+    .aboutSB {
+        font-size: 12pt;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .aboutSB button {
+        height: 30px;
+        width: 100px;
+        font-size: 6pt;
+    }
+
+    .thirdBlock {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .textTB h1 {
+        font-size: 15pt;
+
+    }
+
+    .textTB p {
+        font-size: 8pt;
+    }
+
+    .imgBlockTB img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .fourthBlock {
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .fourthBlock h3 {
+        padding: 0;
+        margin: 0;
+        font-size: 15pt;
+        color: tomato;
+    }
+
+    .circle {
+        width: 100%;
+        height: auto;
+    }
+
+    .circle p {
+        font-size: 8pt;
+    }
+
+    .fivethBlock {
+        height: auto;
+        width: 100%;
+        display: block;
+        background-image: none;
+        background-color: white;
+        color: black;
+        text-align: center;
+    }
+
+    .fivethBlock h1 {
+        font-size: 30pt;
+        color: black;
+    }
+
+    .imgAreaFive img {
+        height: 350px;
+        width: 250px;
+        margin: 2px;
+        transition: 0.5s;
+    }
+
+    .imgAreaFive {
+        height: 100%;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .feedback {
+        height: 100%;
+        background-image: url('../media/sea2.jpg');
+        background-size: cover;
+        background-position: center;
+        color:white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .feedback h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 45pt;
+    }
+    .feedback p{
+        font-size: 18pt;
+        color:gainsboro;
+    }
+    .forminput input{
+        display: block;
+        margin: 5px;
+        width: 500px;
+        outline: none;
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+}
+
+@media screen and (min-width:300px) and (max-width:395px) {
+    .secondBlock {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .mainSB h1 {
+        font-size: 12pt;
+    }
+
+    .aboutSB {
+        font-size: 10pt;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .aboutSB button {
+        height: 30px;
+        width: 100px;
+        font-size: 6pt;
+    }
+
+    .thirdBlock {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .textTB h1 {
+        font-size: 15pt;
+
+    }
+
+    .textTB p {
+        font-size: 7pt;
+    }
+
+    .imgBlockTB img {
+        height: 80px;
+        width: 80px;
+    }
+}
